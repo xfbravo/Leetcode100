@@ -2,6 +2,7 @@
 class Solution
 {
 public:
+    //np 问题，转化为0-1背包，装下sum/2的东西
     bool canPartition(std::vector<int> &nums)
     {
         int n = nums.size();
