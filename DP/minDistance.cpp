@@ -24,7 +24,7 @@ public:
             return std::max(l1, l2);
         }
         vector<vector<int>> dp(l1 + 1, vector<int>(l2 + 1, 0));
-        //初始化dp
+        // 初始化dp
         for (int i = 1; i <= l1; i++)
         {
             dp[i][0] = i;
